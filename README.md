@@ -7,6 +7,7 @@ A structured reference and study guide based on real-world IC layout experience 
 ## 🧭 Layout Domains
 
 ### 🔌 Analog Layout
+-📚 [Analog Block Glossary](./analog_block_glossary.md) – Simple descriptions of common analog building blocks
 - Common centroid and interdigitated techniques
 - Matching and symmetry considerations
 - Guard rings, substrate contacts, and isolation
