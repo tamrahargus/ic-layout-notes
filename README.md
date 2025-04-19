@@ -1,4 +1,4 @@
-# 🧠 Analog Layout Notes
+# 🧠 IC Layout Notes
 
 A structured reference and study guide based on real-world IC layout experience across analog, memory (SRAM), SoC, and general physical design. Built for reflection, interview prep, and helping others avoid the pain of learning everything the hard way.
 
