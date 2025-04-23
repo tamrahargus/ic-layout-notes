@@ -1,42 +1,43 @@
-# 🧠 IC Layout Notes
+# IC Layout Notes
 
 A structured reference and study guide based on real-world IC layout experience across analog, memory (SRAM), SoC, and general physical design. Built for reflection, interview prep, and helping others avoid the pain of learning everything the hard way.
 
 ---
 
-## 🧭 Layout Domains
+## Layout Domains
 
 ### 🔌 Analog Layout
-- 🎤 [Analog Layout Interview Questions](./analog_layout_interview_questions.md) – Common questions and prep topics for layout interviews
-- 📚 [Analog Block Glossary](./analog_block_glossary.md) – Simple descriptions of common analog building blocks
+- [Analog Layout Interview Questions](./analog_layout_interview_questions.md) – Common questions and prep topics for layout interviews
+- [Analog Block Glossary](./analog_block_glossary.md) – Simple descriptions of common analog building blocks
 - Common centroid and interdigitated techniques
 - Matching and symmetry considerations
 - Guard rings, substrate contacts, and isolation
 - ESD & latch-up protection strategies
 - Handling high impedance and sensitive nodes
 
-### 🧠 Memory Layout (SRAM)
+### Memory Layout (SRAM)
 - Bitcell placement and hierarchy
 - Peripheral logic vs. memory core considerations
 - Read/write assist circuits layout tips
 - Margin-sensitive routing (low skew, low IR drop)
 - Custom vs. compiler-generated layout integration
 
-### 🧰 SoC Layout
+### SoC Layout
 - Integration of hard IP (PLLs, LDOs, ADC/DAC, etc.)
 - Power grid planning, straps, and IR drop zones
 - Clock tree and reset distribution best practices
 - IO ring planning and padframe alignment
 - Block-level vs. top-level LVS and DRC strategies
 
-### 📏 General Layout Principles
+### General Layout Principles
+- [Layout Dependent Effects (LDE)](./layout-dependent-effects.md) – Stress, diffusion, and dummy-related effects on device performance
 - Matching, shielding, and symmetry fundamentals
 - Dummy device usage and density rules
 - Parasitics and coupling mitigation
 - Analog/digital partitioning rules of thumb
 - Floorplanning for reliability and performance
 
-### 🛠️ Tools, Checks, and Sanity Tips
+### Tools, Checks, and Sanity Tips
 - Virtuoso and ICC2 layout tips
 - LVS/DRC/PEX workflows
 - EM/IR awareness at layout stage
