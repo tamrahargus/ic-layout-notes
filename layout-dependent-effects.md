@@ -6,7 +6,7 @@ LDE can degrade speed, break matching, or shift threshold voltages enough to cau
 
 ---
 
-## 📋 Common LDE Mechanisms (with Description, Impact, and Mitigation)
+## Common LDE Mechanisms (with Description, Impact, and Mitigation)
 
 | Effect | Description | Impact | Mitigation |
 |--------|-------------|--------|------------|
@@ -22,7 +22,7 @@ LDE can degrade speed, break matching, or shift threshold voltages enough to cau
 
 ---
 
-## 🧠 Why LDE Matters
+## Why LDE Matters
 
 - Analog and mixed-signal circuits require **tight matching**—LDE can break that
 - FinFET and GAA devices are **extremely sensitive** to context
@@ -30,7 +30,7 @@ LDE can degrade speed, break matching, or shift threshold voltages enough to cau
 
 ---
 
-## ✅ Layout Best Practices for LDE Mitigation
+## Layout Best Practices for LDE Mitigation
 
 - Use **common centroid layout** for matched pairs
 - Maintain **dummy symmetry** around devices (OD, poly, metal)
@@ -40,4 +40,11 @@ LDE can degrade speed, break matching, or shift threshold voltages enough to cau
 
 ---
 
-*LDE-aware layout isn't just about passing LVS—it's about protecting circuit function under real silicon conditions. Engineers who understand it are essential in every tapeout team.*
+## LDE Sensitivity by Node Type
+
+Different layout-dependent effects become more or less significant depending on the transistor architecture—Planar CMOS, FinFET, or GAA (Gate-All-Around). This table summarizes how the impact of each effect scales and why it matters at advanced nodes.
+
+![LDE Sensitivity by Node Type](./lde_sensitivity_by_node_type_colored.png)
+
+
+---
